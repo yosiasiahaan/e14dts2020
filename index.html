@@ -17,22 +17,18 @@
         <img class="logo" src="https://raw.githubusercontent.com/yosiasiahaan/e14dts2020/master/logo1.png">
       </div>
       <div class="menu-icon">
-        <span class="fa fa-bars ikon" onclick="openMenu()"></span>
+        <span class="fa fa-bars ikon" id="hide" onclick="openMenu()"></span>
       </div>
       <div class="header-right">
         <a href="#">About</a>
         <a href="#">Team</a>
         <a href="#">Contact</a>
       </div>
-      <div class="popup-menu" id="popup">
-        <div class="box-menu">
-          <div class="del-menu">
-            <span class="fa fa-times" onclick="closeMenu()"></span>
-          </div>
-          <p><a href="#">About</a></p>
-          <p><a href="#">Team</a></p>
-          <p><a href="#">Contact</a></p>
-        </div>
+      <div class="popup-right" id="popup">
+        <span class="fa fa-times" onclick="closeMenu()"></span>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Team</a></p>
+        <p><a href="#">Contact</a></p>
       </div>
     </div>
   </header>
@@ -58,7 +54,6 @@
   function openMenu() {
     document.getElementById("popup").style.display = "block";
   }
-
   function closeMenu() {
     document.getElementById("popup").style.display = "none";
   }
