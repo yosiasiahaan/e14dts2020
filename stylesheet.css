@@ -17,33 +17,42 @@ a {
 
 .container {
   width: 100%;
-  padding: 0 15px;
+  padding: 0 15px 10px;
   margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255,255,255,0.3);
+  transition: all 0.8s;
 }
-
+.container:hover {
+  background-color: rgba(255,255,255,0.8);
+  transition: all 0.8s;
+}
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://i.pinimg.com/564x/20/2d/16/202d16767ca1930cc3c7fb45f4122d1e.jpg);
+  background-image: url(https://raw.githubusercontent.com/yosiasiahaan/e14dts2020/master/compress.jpg);
   background-size: cover;
   color: black;
   text-align: left;
 }
 
-.top-wrapper h1 {
-
+.first-text {
   font-size: 45px;
-  letter-spacing: 2px;
-  margin-bottom: 7px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
 }
-
-.top-wrapper h2 {
-  font-size: 30;
-  opacity: 0.7;
-  margin-bottom: 3px;
+.sec-text {
+  background-color: rgb(233, 14, 149);
+  width: 400px;
+  margin:20px auto;
+  border-radius: 10px;
+  transition: all 0.8s;
 }
-
+.sec-text:hover {
+  background-color: #F06292;
+  transition: all 0.8s;
+}
 .btn-wrapper {
-  text-align: left;
+  text-align: center;
   margin: 20px 0;
 }
 
@@ -63,10 +72,12 @@ a {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
+  transition: all 0.8s;
 }
 
 .btn:hover {
   opacity: 1;
+  transition: all 0.8s;
 }
 
 .fa {
@@ -76,7 +87,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color:#ffff;
+  background-color:rgba(255,255,255,1);
   position :fixed;
   top: 0;
   z-index: 10;
