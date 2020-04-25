@@ -35,12 +35,6 @@ Setelah file di push, maka langkah selanjutnya yaitu mengirim permintaan untuk d
 
  - Buka repository di browser.
  - Pilih branch yang dikelola
- [gambar: Pilih branch #1](https://prnt.sc/prtufs)
- [gambar: Pilih branch #2](http://prntscr.com/prtvq9)
  - Klik **Pull Request**
- [gambar: Pull request](http://prntscr.com/prtw36)
  - Pilih branch -> **Develop**
- [gambar: Pilih branch #1](http://prntscr.com/prtwe5)
- [gambar: Pilih branch #2](http://prntscr.com/prtwmo)
  - Isi pesan (optional) lalu klik **Create pull request**
- [gambar: Create pull request](http://prntscr.com/prtwz5)
