@@ -42,4 +42,20 @@
     width: 120px;
     height: 65px;
   }
+  /*TOP WRAPPER RESPONSIVE*/
+  .sec-text {
+    background-color: rgb(233, 14, 149);
+    width: 350px;
+    margin:20px auto;
+    border-radius: 10px;
+    transition: all 0.8s;
+  }
+  .sec-text:hover {
+    background-color: #F06292;
+    transition: all 0.8s;
+  }
+  .btn-wrapper {
+    margin:0 auto;
+    width: 250px;
+  }
 }
