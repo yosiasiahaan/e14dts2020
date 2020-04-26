@@ -21,10 +21,16 @@ a {
   padding: 0 15px 10px;
   margin: 0 auto;
   text-align: center;
+}
+.container-wrapper {
+  width: 100%;
+  padding: 0 15px 10px;
+  margin: 0 auto;
+  text-align: center;
   background-color: rgba(255,255,255,0.3);
   transition: all 0.8s;
 }
-.container:hover {
+.container-wrapper:hover {
   background-color: rgba(255,255,255,0.8);
   transition: all 0.8s;
 }
@@ -106,29 +112,14 @@ a {
   padding: 0 8px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Some left and right padding inside the container */
-.container {
+.container-lesson {
   padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .title {
@@ -224,6 +215,138 @@ header {
   margin-right: 10px;
   float: right;
 }
+/*-----ekstra1-----*/
+.head-ekstra1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.825rem;
+  margin: 1.3rem 0;
+}
+
+.section-lead {
+  max-width: 600px;
+  margin: 1rem auto 1.5rem;
+}
+
+.service a {
+  color: #5b7abb;
+  display: block;
+}
+
+.service h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #56ceba;
+  font-size: 1.3rem;
+  margin: 1rem 0 0.6rem;
+}
+
+.service-grid {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.service {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #e7e7e7;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  float: left;
+}
+
+.service:hover {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+.read-more {
+  text-decoration: none;
+  margin: 1rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+}
+
+.desc {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+.service i {
+  font-size: 3.45rem;
+  margin: 1rem 0;
+}
+
+.service1 i,
+.service1 h4,
+.service1 .cta {
+  color: #9c42ca;
+}
+
+.service1:hover {
+  border: 2px solid #9c42ca;
+}
+
+.service2 i,
+.service2 h4,
+.service2 .cta {
+  color: #9c42ca;
+}
+
+.service2:hover {
+  border: 2px solid #9c42ca;
+}
+
+.service3 i,
+.service3 h4,
+.service3 .cta {
+  color: #9c42ca;
+}
+
+.service3:hover {
+  border: 2px solid #9c42ca;
+}
+
+.service4 i,
+.service4 h4,
+.service4 .cta {
+  color: #9c42ca;
+}
+
+.service4:hover {
+  border: 2px solid #9c42ca;
+}
+
+.service .cta span {
+  font-size: 0.6rem;
+}
+
+.service>* {
+  flex: 1 1 100%;
+}
+
+.service .cta {
+  align-self: flex-end;
+}
+
+/*-----ekstra2-----*/
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -245,4 +368,79 @@ header {
 }
 .heading h2 {
   font-weight: normal;
+}
+
+/* message-wrapper */
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+.message-wrapper h2 {
+  padding-top: 30px;
+  margin-top: 200px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.message-wrapper h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.heading span {
+  color: red;
+}
+
+
+.message:hover {
+  opacity: 1.5;
+  background-color: #5dca88;
+  box-shadow: 0 7px #19a04f;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #e90e95;
+  cursor : pointer;
+  box-shadow: 0 7px #d10181;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.tombol {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* footer */
+
+footer img {
+  width: 150px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  height: 120px;
+}
+
+.fb, .ig, .twit {
+  height: 20px;
+  width: 20px;
+  padding right: 10px;
 }
