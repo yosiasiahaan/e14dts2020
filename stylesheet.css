@@ -20,10 +20,16 @@ a {
   padding: 0 15px 10px;
   margin: 0 auto;
   text-align: center;
+}
+.container-wrapper {
+  width: 100%;
+  padding: 0 15px 10px;
+  margin: 0 auto;
+  text-align: center;
   background-color: rgba(255,255,255,0.3);
   transition: all 0.8s;
 }
-.container:hover {
+.container-wrapper:hover {
   background-color: rgba(255,255,255,0.8);
   transition: all 0.8s;
 }
@@ -82,29 +88,14 @@ a {
   padding: 0 8px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Some left and right padding inside the container */
-.container {
+.container-lesson {
   padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .title {
