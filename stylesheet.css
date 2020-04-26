@@ -201,7 +201,7 @@ header {
   float: right;
 }
 /*-----ekstra1-----*/
-h3 {
+.head-ekstra1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: #333;
@@ -227,7 +227,7 @@ h3 {
   margin: 1rem 0 0.6rem;
 }
 
-.services-grid {
+.service-grid {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -243,18 +243,35 @@ h3 {
   -webkit-box-flex: 1;
   flex: 1;
   display: -webkit-box;
+  height: 500px;
   display: flex;
   flex-wrap: wrap;
   border: 2px solid #e7e7e7;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  float: left;
 }
 
 .service:hover {
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+.read-more {
+  text-decoration: none;
+  margin: 1rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+}
+
+.desc {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  line-height: 1.5;
 }
 
 .service i {
@@ -265,21 +282,21 @@ h3 {
 .service1 i,
 .service1 h4,
 .service1 .cta {
-  color: #42b7ca;
+  color: #9c42ca;
 }
 
 .service1:hover {
-  border: 2px solid #42b7ca;
+  border: 2px solid #9c42ca;
 }
 
 .service2 i,
 .service2 h4,
 .service2 .cta {
-  color: #425fca;
+  color: #9c42ca;
 }
 
 .service2:hover {
-  border: 2px solid #425fca;
+  border: 2px solid #9c42ca;
 }
 
 .service3 i,
@@ -289,6 +306,16 @@ h3 {
 }
 
 .service3:hover {
+  border: 2px solid #9c42ca;
+}
+
+.service4 i,
+.service4 h4,
+.service4 .cta {
+  color: #9c42ca;
+}
+
+.service4:hover {
   border: 2px solid #9c42ca;
 }
 
