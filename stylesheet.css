@@ -338,3 +338,78 @@ header {
 .heading h2 {
   font-weight: normal;
 }
+
+/* message-wrapper */
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+.message-wrapper h2 {
+  padding-top: 30px;
+  margin-top: 200px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.message-wrapper h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.heading span {
+  color: red;
+}
+
+
+.message:hover {
+  opacity: 1.5;
+  background-color: #5dca88;
+  box-shadow: 0 7px #19a04f;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #e90e95;
+  cursor : pointer;
+  box-shadow: 0 7px #d10181;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.tombol {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* footer */
+
+footer img {
+  width: 150px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  height: 120px;
+}
+
+.fb, .ig, .twit {
+  height: 20px;
+  width: 20px;
+  padding right: 10px;
+}
