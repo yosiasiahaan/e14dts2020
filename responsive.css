@@ -67,12 +67,19 @@
     width: 250px;
   }
 
+  .ekstra1 {
+    height: 1500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
   .lesson {
-    float: Center;
-    width: 24.6%;
+    width: 80%;
+    display: block;
+    margin-left: 40px;
     margin-bottom: 5px;
     border: 2px solid rgb(122, 116, 116);
-    height: 300px;
   }
 
   .lesson:hover {
