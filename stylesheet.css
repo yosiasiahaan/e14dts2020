@@ -216,6 +216,61 @@ header {
   float: right;
 }
 /*-----ekstra1-----*/
+<<<<<<< HEAD
+=======
+
+.ekstra1 {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading-eks1 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading-eks1 h2 {
+    font-weight: normal;
+  }
+
+  .icon {
+    color : #3c3b3d;
+  }
+  
+  .lesson {
+    float: left;
+    width: 24.6%;
+    margin-right: 5px;
+    border: 2px solid rgb(122, 116, 116);
+    height: 300px;
+  }
+
+  .lesson:hover {
+    border: 2px solid rgb(31, 27, 27);
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    color: black;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #615b63;
+  }
+>>>>>>> extra1
 
 /*-----ekstra2-----*/
 .lesson-wrapper {
