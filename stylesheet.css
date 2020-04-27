@@ -216,9 +216,6 @@ header {
   float: right;
 }
 /*-----ekstra1-----*/
-<<<<<<< HEAD
-=======
-
 .ekstra1 {
     height: 500px;
     padding-bottom: 80px;
@@ -270,8 +267,7 @@ header {
     font-size: 15px;
     color: #615b63;
   }
->>>>>>> extra1
-
+  
 /*-----ekstra2-----*/
 .lesson-wrapper {
   padding-left: 5%;
