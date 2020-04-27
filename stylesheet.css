@@ -350,8 +350,8 @@ header {
 .lesson-wrapper {
   padding-left: 5%;
   padding-right: 5%;
-  background-color: white;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 .partner-wrapper {
   padding-bottom: 80px;
