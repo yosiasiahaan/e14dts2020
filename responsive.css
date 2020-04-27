@@ -7,6 +7,10 @@
   .row {
     margin: 0 auto;
   }
+  
+  .message-wrapper {
+    margin-top: 130%;
+  }
 }
 
 /* Untuk Smartphone */
